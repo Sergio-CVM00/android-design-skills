@@ -1,6 +1,6 @@
 # Android Design Skills
 
-<p align="center"><img src="docs/assets/banner.png" alt="Android Design Skills: eight agent skills for adaptive Android UI across phone, foldable and resizable window" width="100%"></p>
+<p align="center"><img src="docs/assets/banner.webp" alt="Android Design Skills: eight agent skills for adaptive Android UI across phone, foldable and resizable window" width="100%"></p>
 
 Eight practical agent skills for designing and reviewing Android UI, grounded in the Android Developers mobile design guides. **Adaptive layout and interaction patterns receive the deepest coverage.**
 
