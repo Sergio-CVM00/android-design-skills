@@ -23,19 +23,37 @@ The bundle contains 8 entry points and 22 focused references. Layout and pattern
 
 ## Install
 
-Install all eight skills with the [`skills`](https://github.com/vercel-labs/skills) CLI (requires Node.js):
+One command installs the bundle for the most common coding agents (requires Node.js):
 
 ```sh
-npx skills add Sergio-CVM00/android-design-skills
+npx skills add Sergio-CVM00/android-design-skills -g -a claude-code -a codex -a cursor -a opencode -a pi -y
 ```
 
-Without flags, the CLI prompts for the target agents and the install scope (current project or user directory). To skip the prompts, pass them explicitly:
+It uses the [`skills`](https://github.com/vercel-labs/skills) CLI to place the eight skills in `~/.agents/skills`, the shared Agent Skills location, and to link them into `~/.claude/skills` and `~/.pi/agent/skills`. Agents that read `~/.agents/skills` pick them up without their own flag.
 
-```sh
-npx skills add Sergio-CVM00/android-design-skills -a claude-code -a codex -g -y
-```
+- Drop `-g` to install into the current project instead (`.agents/skills` and `.claude/skills`).
+- Run `npx skills add Sergio-CVM00/android-design-skills` without flags to choose agents and scope interactively, or pass `-a <agent>` for any of the other agents the CLI supports.
+- Use `--list` to preview the skills and `--copy` if your environment does not support symlinks.
+- Install the whole bundle rather than a single skill with `--skill`: the skills reference each other through relative links.
+- Avoid `--all -g`: one of the CLI's agents has no user-level location, so the command exits with an error even though the other installs succeed.
 
-Use `--list` to preview the skills without installing, and `--copy` if your environment does not support symlinks. Install the whole bundle rather than a single skill with `--skill`: the skills reference each other through relative links.
+### Supported harnesses
+
+| Harness | Where it finds the skills | Checked |
+| --- | --- | --- |
+| Claude Code | `~/.claude/skills`, or `.claude/skills` in the project | Install layout |
+| Codex | `~/.agents/skills`, or `.agents/skills` in the project | Discovery, user and project |
+| OpenCode | `~/.agents/skills`, or `.agents/skills` in the project | Discovery, user and project |
+| Pi | `~/.pi/agent/skills` or `~/.agents/skills`, or `.agents/skills` in the project | Discovery, user and project |
+| Oh My Pi (`omp`) | `~/.agents/skills`, or `.agents/skills` in the project | Discovery, project |
+| Cursor | `.agents/skills` in the project | Install layout |
+| DeepSeek Harness (`dsh`) | `~/.agents/skills`, or `.agents/skills` in the project | Documentation |
+| Deep Code | `~/.agents/skills` | Documentation |
+| DeepSeek-TUI | `.agents/skills` in the project | Documentation |
+
+Pi loads project-local skills only after you trust the project (`pi --approve`, or its trust prompt). User-level installs do not need this.
+
+"Discovery" means the agent listed all eight skills in a fresh session after a clean install. "Install layout" means the skills landed where the agent documents it reads them, but no session was run. "Documentation" means the location comes from the harness's own documentation and has not been run here. None of these checks covers agent behavior with the skills.
 
 ### Manual install
 
@@ -45,13 +63,9 @@ Clone this repository:
 git clone https://github.com/Sergio-CVM00/android-design-skills.git
 ```
 
-Copy the eight directories under `skills/` into your agent's supported skill directory. For Codex, use `$CODEX_HOME/skills` or `~/.codex/skills` when unset. Inspect any existing same-named skills before replacing them.
+Copy the eight directories under `skills/` into your agent's skill directory, for example `~/.agents/skills`. Inspect any existing same-named skills before replacing them.
 
-Keep the directories as siblings so relative cross-skill references work. The `agents/openai.yaml` files provide Codex UI metadata; the Markdown guidance does not require a particular agent harness, browser, model, or paid service.
-
-### Tested scope
-
-Project (default) and user (`-g`) installs with `npx skills add` for Claude Code and Codex were checked: all eight skills land as sibling directories and every relative link between them resolves. The check covers installation only, not agent behavior. Other harnesses must support the `SKILL.md` convention and their own discovery location; their installation and runtime behavior have not been tested here.
+Keep the directories as siblings so relative cross-skill references work. The `agents/openai.yaml` files provide Codex UI metadata; the Markdown guidance does not require a particular agent harness, browser, model, or paid service. Any other harness that supports the `SKILL.md` convention can load the skills from its own discovery location.
 
 ## Example requests
 
