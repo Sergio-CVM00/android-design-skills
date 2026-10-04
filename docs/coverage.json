@@ -1,0 +1,299 @@
+[
+  {
+    "title": "Accessibility",
+    "url": "https://developer.android.com/design/ui/mobile/guides/foundations/accessibility",
+    "skill": "android-ui-foundations",
+    "reference": "skills/android-ui-foundations/references/accessibility.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Android system bars",
+    "url": "https://developer.android.com/design/ui/mobile/guides/foundations/system-bars",
+    "skill": "android-ui-foundations",
+    "reference": "skills/android-ui-foundations/references/system-ui-and-glossary.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Glossary",
+    "url": "https://developer.android.com/design/ui/mobile/guides/foundations/glossary",
+    "skill": "android-ui-foundations",
+    "reference": "skills/android-ui-foundations/references/system-ui-and-glossary.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Translate iOS designs to Android",
+    "url": "https://developer.android.com/design/ui/mobile/guides/foundations/translate-designs",
+    "skill": "android-ui-foundations",
+    "reference": "skills/android-ui-foundations/references/platform-translation.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Android color for mobile design",
+    "url": "https://developer.android.com/design/ui/mobile/guides/styles/color",
+    "skill": "android-ui-styles",
+    "reference": "skills/android-ui-styles/references/color-and-themes.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Themes",
+    "url": "https://developer.android.com/design/ui/mobile/guides/styles/themes",
+    "skill": "android-ui-styles",
+    "reference": "skills/android-ui-styles/references/type-shape-icons-motion.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Layout basics",
+    "url": "https://developer.android.com/design/ui/mobile/guides/layout-and-content/layout-basics",
+    "skill": "android-ui-layout-content",
+    "reference": "skills/android-ui-layout-content/references/composition.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "App Anatomy",
+    "url": "https://developer.android.com/design/ui/mobile/guides/layout-and-content/app-anatomy",
+    "skill": "android-ui-layout-content",
+    "reference": "skills/android-ui-layout-content/references/composition.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Grids and units",
+    "url": "https://developer.android.com/design/ui/mobile/guides/layout-and-content/grids-and-units",
+    "skill": "android-ui-layout-content",
+    "reference": "skills/android-ui-layout-content/references/composition.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Content composition and structure",
+    "url": "https://developer.android.com/design/ui/mobile/guides/layout-and-content/content-structure",
+    "skill": "android-ui-layout-content",
+    "reference": "skills/android-ui-layout-content/references/composition.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Layouts and navigation patterns",
+    "url": "https://developer.android.com/design/ui/mobile/guides/layout-and-content/layout-and-nav-patterns",
+    "skill": "android-ui-layout-content",
+    "reference": "skills/android-ui-layout-content/references/adaptive-layouts.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Common layouts",
+    "url": "https://developer.android.com/design/ui/mobile/guides/layout-and-content/common-layouts",
+    "skill": "android-ui-layout-content",
+    "reference": "skills/android-ui-layout-content/references/adaptive-layouts.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Adapt layouts",
+    "url": "https://developer.android.com/design/ui/mobile/guides/layout-and-content/adapt-layout",
+    "skill": "android-ui-layout-content",
+    "reference": "skills/android-ui-layout-content/references/adaptive-layouts.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Foldable Postures and orientation",
+    "url": "https://developer.android.com/design/ui/mobile/guides/layout-and-content/postures-and-orientation",
+    "skill": "android-ui-layout-content",
+    "reference": "skills/android-ui-layout-content/references/postures.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Immersive content",
+    "url": "https://developer.android.com/design/ui/mobile/guides/layout-and-content/immersive-content",
+    "skill": "android-ui-layout-content",
+    "reference": "skills/android-ui-layout-content/references/insets-and-immersion.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Edge-to-edge design",
+    "url": "https://developer.android.com/design/ui/mobile/guides/layout-and-content/edge-to-edge",
+    "skill": "android-ui-layout-content",
+    "reference": "skills/android-ui-layout-content/references/insets-and-immersion.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Images and graphics",
+    "url": "https://developer.android.com/design/ui/mobile/guides/layout-and-content/images-graphics",
+    "skill": "android-ui-layout-content",
+    "reference": "skills/android-ui-layout-content/references/images-and-graphics.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Material Components",
+    "url": "https://developer.android.com/design/ui/mobile/guides/components/material-overview",
+    "skill": "android-ui-components",
+    "reference": "skills/android-ui-components/references/component-decisions.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Predictive back design",
+    "url": "https://developer.android.com/design/ui/mobile/guides/patterns/predictive-back",
+    "skill": "android-ui-patterns",
+    "reference": "skills/android-ui-patterns/references/predictive-back.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Settings",
+    "url": "https://developer.android.com/design/ui/mobile/guides/patterns/settings",
+    "skill": "android-ui-patterns",
+    "reference": "skills/android-ui-patterns/references/settings-and-help.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Help and Feedback screens",
+    "url": "https://developer.android.com/design/ui/mobile/guides/patterns/help-content",
+    "skill": "android-ui-patterns",
+    "reference": "skills/android-ui-patterns/references/settings-and-help.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "User authentication with passkeys",
+    "url": "https://developer.android.com/design/ui/mobile/guides/patterns/passkeys",
+    "skill": "android-ui-patterns",
+    "reference": "skills/android-ui-patterns/references/passkeys.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Authentication &amp; Onboarding",
+    "url": "https://developer.android.com/design/ui/mobile/guides/patterns/onboarding",
+    "skill": "android-ui-patterns",
+    "reference": "skills/android-ui-patterns/references/onboarding-and-authentication.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Notifications",
+    "url": "https://developer.android.com/design/ui/mobile/guides/home-screen/notifications",
+    "skill": "android-ui-home-screen",
+    "reference": "skills/android-ui-home-screen/references/notifications.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Live update notifications",
+    "url": "https://developer.android.com/design/ui/mobile/guides/home-screen/live-updates",
+    "skill": "android-ui-home-screen",
+    "reference": "skills/android-ui-home-screen/references/live-updates-and-pip.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Widgets",
+    "url": "https://developer.android.com/design/ui/mobile/guides/home-screen/widgets",
+    "skill": "android-ui-widgets",
+    "reference": "skills/android-ui-widgets/references/layout-sizing-style.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": "Overview alias; shares the widgets overview content."
+  },
+  {
+    "title": "Picture-in-picture",
+    "url": "https://developer.android.com/design/ui/mobile/guides/home-screen/picture-in-picture",
+    "skill": "android-ui-home-screen",
+    "reference": "skills/android-ui-home-screen/references/live-updates-and-pip.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Widgets",
+    "url": "https://developer.android.com/design/ui/mobile/guides/widgets",
+    "skill": "android-ui-widgets",
+    "reference": "skills/android-ui-widgets/references/layout-sizing-style.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Canonical widget layouts",
+    "url": "https://developer.android.com/design/ui/mobile/guides/widgets/layouts",
+    "skill": "android-ui-widgets",
+    "reference": "skills/android-ui-widgets/references/layout-sizing-style.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Sizing",
+    "url": "https://developer.android.com/design/ui/mobile/guides/widgets/sizing",
+    "skill": "android-ui-widgets",
+    "reference": "skills/android-ui-widgets/references/layout-sizing-style.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Style",
+    "url": "https://developer.android.com/design/ui/mobile/guides/widgets/style",
+    "skill": "android-ui-widgets",
+    "reference": "skills/android-ui-widgets/references/layout-sizing-style.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Widget configuration",
+    "url": "https://developer.android.com/design/ui/mobile/guides/widgets/configuration",
+    "skill": "android-ui-widgets",
+    "reference": "skills/android-ui-widgets/references/configuration-and-discovery.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  },
+  {
+    "title": "Discovery and promotion",
+    "url": "https://developer.android.com/design/ui/mobile/guides/widgets/discovery-promotion",
+    "skill": "android-ui-widgets",
+    "reference": "skills/android-ui-widgets/references/configuration-and-discovery.md",
+    "reviewed": "2026-10-04",
+    "status": "covered",
+    "note": ""
+  }
+]
