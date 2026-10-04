@@ -23,6 +23,22 @@ The bundle contains 8 entry points and 22 focused references. Layout and pattern
 
 ## Install
 
+Install all eight skills with the [`skills`](https://github.com/vercel-labs/skills) CLI (requires Node.js):
+
+```sh
+npx skills add Sergio-CVM00/android-design-skills
+```
+
+Without flags, the CLI prompts for the target agents and the install scope (current project or user directory). To skip the prompts, pass them explicitly:
+
+```sh
+npx skills add Sergio-CVM00/android-design-skills -a claude-code -a codex -g -y
+```
+
+Use `--list` to preview the skills without installing, and `--copy` if your environment does not support symlinks. Install the whole bundle rather than a single skill with `--skill`: the skills reference each other through relative links.
+
+### Manual install
+
 Clone this repository:
 
 ```sh
@@ -33,7 +49,9 @@ Copy the eight directories under `skills/` into your agent's supported skill dir
 
 Keep the directories as siblings so relative cross-skill references work. The `agents/openai.yaml` files provide Codex UI metadata; the Markdown guidance does not require a particular agent harness, browser, model, or paid service.
 
-Other harnesses must support the `SKILL.md` convention and their own discovery location. Their installation and runtime behavior have not been tested here.
+### Tested scope
+
+Project (default) and user (`-g`) installs with `npx skills add` for Claude Code and Codex were checked: all eight skills land as sibling directories and every relative link between them resolves. The check covers installation only, not agent behavior. Other harnesses must support the `SKILL.md` convention and their own discovery location; their installation and runtime behavior have not been tested here.
 
 ## Example requests
 
